@@ -1,4 +1,4 @@
-## Assignment: Caching the Inverse of a Matrix
+## Assignment2: Caching the Inverse of a Matrix
 ## A pair of function that catch the mean if it has already been computed if not the function will compute and return it.
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.

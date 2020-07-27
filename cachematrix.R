@@ -55,3 +55,12 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         m
 }
+makeCacheMatrix(x)
+cacheSolve(x)
+
+## non-atomic example
+f <- makeCacheMatrix(matrix(1:4, 2, 2))
+print(cacheSolve(f))
+
+## atomic examples
+print(cacheSolve(matrix(1:4, 2, 2)))

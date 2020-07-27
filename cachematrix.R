@@ -55,6 +55,10 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         m
 }
+
+##Examples
+  
+x <- matrix(sample(1:100,9),3,3)
 makeCacheMatrix(x)
 cacheSolve(x)
 
